@@ -3,13 +3,7 @@ Building a Machine Learning Model that's able to perform lip reading.
 
 <h3>0. Install and Import Dependencies</h3>
 
-**OpenCV-Python**:- 
-  In the LipNet project for lip reading using machine learning, OpenCV-Python can be used for several purposes:
-  -Video Preprocessing
-  -Feature Extraction
-  -Lip Region Detection
-  -Data Augmentation
-  -Visualizations and Debugging
+**OpenCV-Python**:-  OpenCV-Python serves as a valuable tool in the LipNet project for various tasks ranging from preprocessing and feature extraction to visualization and debugging, ultimately contributing to the development of an accurate and robust lip reading system.
 
 **Matplotlib**:-   Matplotlib complements OpenCV-Python in the LipNet project by providing capabilities for data visualization, model performance evaluation, feature analysis, debugging, and analysis, thus enhancing the development and understanding of the lip reading system.
 
