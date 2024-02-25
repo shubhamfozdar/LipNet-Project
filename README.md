@@ -11,3 +11,5 @@ Building a Machine Learning Model that's able to perform lip reading.
 
 **gdown**:-  gdown simplifies the process of downloading datasets and pre-trained models from Google Drive, streamlining the development and experimentation process in the LipNet project for lip reading using machine learning.
 
+**Tensorflow**:- TensorFlow serves as a powerful framework for developing, training, and deploying deep learning models in the LipNet project, facilitating tasks such as model development, training, transfer learning, inference, performance optimization, and research experimentation. Its rich ecosystem of tools and resources empowers researchers and developers to build accurate and efficient lip reading systems using state-of-the-art deep learning techniques.
+
