@@ -1,6 +1,8 @@
 # LipNet-Project
 Building a Machine Learning Model that's able to perform lip reading.
 
+The modeules used and the process to be follwed is attatched below:-
+
 <h3>0. Install and Import Dependencies</h3>
 
 **OpenCV-Python**:-  OpenCV-Python serves as a valuable tool in the LipNet project for various tasks ranging from preprocessing and feature extraction to visualization and debugging, ultimately contributing to the development of an accurate and robust lip reading system.
