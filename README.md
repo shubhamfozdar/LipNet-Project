@@ -25,9 +25,9 @@ This Python function load_video loads a video file specified by the path paramet
 
 3. It iterates over the number of frames in the video, which is obtained using cap.get(cv2.CAP_PROP_FRAME_COUNT). For each iteration:
 
-*It reads the next frame from the video using cap.read(). The return value ret indicates whether a frame was successfully read, and frame holds the actual frame data.
-*It converts the frame from RGB to grayscale using TensorFlow's tf.image.rgb_to_grayscale function.
-*It selects a specific region of interest (ROI) from the frame using array slicing (frame[190:236,80:220,:]) and appends it to the frames list. This seems to be cropping the frame to a specific area.
+* It reads the next frame from the video using cap.read(). The return value ret indicates whether a frame was successfully read, and frame holds the actual frame data.
+* It converts the frame from RGB to grayscale using TensorFlow's tf.image.rgb_to_grayscale function.
+* It selects a specific region of interest (ROI) from the frame using array slicing (frame[190:236,80:220,:]) and appends it to the frames list. This seems to be cropping the frame to a specific area.
 After reading all frames, it releases the video capture object using cap.release() to free up system resources.
 
 It calculates the mean and standard deviation of the pixel values across all frames using TensorFlow's tf.math.reduce_mean and tf.math.reduce_std functions respectively.
